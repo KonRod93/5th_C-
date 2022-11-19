@@ -24,10 +24,10 @@ for (int i = 0; i < numbers.Length; i++)
 void ArrayRandom(double[] numbers)
 {
     Random rnd = new Random();
-    for(int i = 0; i < numbers.Length; i++)
-        {
-            numbers[i] = Convert.ToDouble (rnd.Next(1, 1000))/100;
-        }
+    for (int i = 0; i < numbers.Length; i++)
+    {
+        numbers[i] = Convert.ToDouble(rnd.Next(1, 1000)) / 100;
+    }
 }
 void PrintArray(double[] numbers)
 
