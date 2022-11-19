@@ -15,7 +15,6 @@ FindEven(Array);
 int[] GetArray(int Length, int minValue, int maxValue)
 {
     Random rnd = new Random();
-    int number = rnd.Next(100, 999);
     int[] result = new int[Length];
     for (int i = 0; i < result.Length; i++)
     {
